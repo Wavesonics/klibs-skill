@@ -1,9 +1,9 @@
 ---
-name: find-kotlin-lib
+name: find
 description: Search klibs.io for Kotlin / Kotlin Multiplatform libraries from a natural-language description. Use when the user asks "is there a KMP library for X", "find me a Kotlin library that does Y", or names a capability and wants library suggestions with coordinates / platform support.
 ---
 
-# find-kotlin-lib
+# klibs:find
 
 Translate the user's natural-language request into one or more klibs.io queries, run them with the bundled `search.py`, then synthesize a short ranked recommendation.
 
@@ -13,8 +13,8 @@ Translate the user's natural-language request into one or more klibs.io queries,
 
 Resolve the script path each session — it differs by install mode:
 
-- **Plugin install**: `"$CLAUDE_PLUGIN_ROOT/skills/find-kotlin-lib/search.py"`
-- **Standalone install**: `"$HOME/.claude/skills/find-kotlin-lib/search.py"` (or wherever the `.claude/skills/find-kotlin-lib/` dir lives — project-scoped installs put it under the project's `.claude/`).
+- **Plugin install**: `"$CLAUDE_PLUGIN_ROOT/skills/find/search.py"`
+- **Standalone install**: wherever the user symlinked or copied the `skills/find/` directory (commonly `~/.claude/skills/<some-name>/search.py`).
 
 Invocation:
 

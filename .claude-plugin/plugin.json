@@ -1,11 +1,11 @@
 {
-  "name": "find-kotlin-lib",
+  "name": "klibs",
   "description": "Search klibs.io for Kotlin / Kotlin Multiplatform libraries from natural-language descriptions. Use when asked to find a Kotlin or KMP library for a given capability.",
   "version": "0.1.0",
   "author": {
     "name": "Adam Brown"
   },
-  "homepage": "https://github.com/Wavesonics/find-kotlin-lib",
-  "repository": "https://github.com/Wavesonics/find-kotlin-lib",
+  "homepage": "https://github.com/Wavesonics/klibs-skill",
+  "repository": "https://github.com/Wavesonics/klibs-skill",
   "license": "MIT"
 }
