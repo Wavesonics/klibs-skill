@@ -101,6 +101,12 @@ python3 skills/find/search.py ktor --packages   # Maven packages instead of proj
 
 Output is compact JSON on stdout.
 
+## Privacy
+
+The plugin collects no data and sends nothing to any server other than the
+public klibs.io backend (`api.klibs.io`). See [PRIVACY.md](PRIVACY.md) for
+full details.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
